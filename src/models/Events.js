@@ -12,4 +12,6 @@ const EventSchema = new mongoose.Schema({
     }
 })
 
+console.log('testing commit')
+
 module.exports = mongoose.model('Event', EventSchema)
