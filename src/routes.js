@@ -9,7 +9,7 @@ const RegistrationController = require('./controllers/RegistrationController');
 const ApprovalController = require('./controllers/ApprovalController');
 const RejectionController = require('./controllers/RejectionController');
 const uploadConfig= require('./config/upload');
-
+//testing
 const routes = express.Router();
 const upload = multer(uploadConfig);
 
